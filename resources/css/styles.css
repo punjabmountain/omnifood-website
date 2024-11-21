@@ -16,7 +16,7 @@
 	============================================================= */ 
 html,
 body {
-	background-image: url("C:\Users\ashle\Documents\GitHub\omnifood-website\resources\css\img\hero-min.jpg");
+	background-color: #fff; opacity: 0.5;
 	color: #555;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 20px;
