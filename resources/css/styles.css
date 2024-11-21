@@ -17,7 +17,7 @@
 html,
 body {
 	background-color: #f49b98;
-	color: #555;
+	color: #000000;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
@@ -72,7 +72,7 @@ h2 {
 h2:after {
 	display: block;
 	height: 2px;
-	background-color: #e67e22;
+	background-color: #000000;
 	content: ""; /* Must have when using :after pseudo-class */
 	width: 100px;
 	margin: 0 auto; /* Center content */
@@ -266,7 +266,7 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.98);
+	background-color: #fc6863;
 	box-shadow: 0 1px 2px #efefef;
 	z-index: 10;
 	transition: all 0.5s ease;
@@ -361,7 +361,7 @@ header {
 	margin-top: 70px;
 }
 
-.app-screen { width: 40%; }
+.app-screen { width: 99%; }
 
 .works-steps { margin-bottom: 50px; }
 
@@ -370,14 +370,14 @@ header {
 }
 
 .works-steps div {
-	color: #fc6863;
-	border: 2px solid #fc6863;
+	color: #f49b98;
+	border: 2px solid #f49b98;
 	display: inline-block; /* will not enforce line break */
 	border-radius: 50%;
 	height: 55px;
 	width: 55px;
 	text-align: center;
-	padding: 5px;
+	padding: 9px;
 	float: left; /* We used clearfix on meals section to fix issue of clearing floats */
 	font-size: 1.5em;
 	margin-right: 25px;
@@ -387,7 +387,7 @@ header {
 .btn-app:visited { border: 0; }
 
 .btn-app img {
-	height: 50px;
+	height: 100px;
 	width: auto;
 	margin-right: 15px;
 }
