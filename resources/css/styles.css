@@ -370,8 +370,8 @@ header {
 }
 
 .works-steps div {
-	color: #e67e22;
-	border: 2px solid #e67e22;
+	color: #fc6863;
+	border: 2px solid #fc6863;
 	display: inline-block; /* will not enforce line break */
 	border-radius: 50%;
 	height: 55px;
