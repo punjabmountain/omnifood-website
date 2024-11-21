@@ -17,7 +17,7 @@
 html,
 body {
 	background-color: #f49b98;
-	color: #000000;
+	color: #ffffff;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 20px;
 	font-weight: 300;
@@ -42,13 +42,13 @@ body {
 	margin: 0 auto; /* center content*/
 }
 
-section { padding: 80px 0px; }
+section { padding: 25px 0px; }
 
 h1,
 h2,
 h3 {
 	font-weight: 300;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 h1 {
@@ -267,7 +267,7 @@ header {
 	left: 0;
 	width: 100%;
 	background-color: #fc6863;
-	box-shadow: 0 1px 2px #efefef;
+	box-shadow: 0 1px 2px #000000;
 	z-index: 10;
 	transition: all 0.5s ease;
 }
@@ -279,7 +279,7 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
 	padding: 16px 0;
-	color: #555;
+	color: #ffffff;
 }
 
 .sticky .logo {
@@ -347,7 +347,7 @@ header {
 /* How it works section
    ====================================*/
 .steps {
-	background-color: #f4f4f4;
+	background-color: #f4f4f400;
 }
 
 .steps-box:first-child {
@@ -370,8 +370,8 @@ header {
 }
 
 .works-steps div {
-	color: #f49b98;
-	border: 2px solid #f49b98;
+	color: #ffffff;
+	border: 2px solid #ffffff;
 	display: inline-block; /* will not enforce line break */
 	border-radius: 50%;
 	height: 55px;
