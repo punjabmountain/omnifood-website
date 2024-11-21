@@ -16,7 +16,7 @@
 	============================================================= */ 
 html,
 body {
-	background-color: #fff;
+	background-image: url("resources/css/img/hero.jpg");
 	color: #555;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-size: 20px;
@@ -503,6 +503,18 @@ input[placeholder],
 input[type="submit"], /* had to repeat this style for some reason, works now */
 textarea[placeholder],
 select
+
+Meet the henna community
+
+Skip navigation
+Search
+
+
+
+
+
+Avatar image
+
 {
 	font-family: inherit;
 	font-size: 0.9em;
